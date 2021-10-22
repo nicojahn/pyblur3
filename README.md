@@ -1,5 +1,8 @@
 #Pyblur
 ##Python image blurring routines.
+
+Just a few fixes to port the unmaintained original https://github.com/lospooky/pyblur to python3.
+
 Pyblur is a collection of simple image blurring routines.<br>
 It supports Gaussian, Disk, Box, and Linear Motion Blur Kernels as well as the Point Spread Functions
 used in [Convolutional Neural Networks for Direct Text Deblurring](http://www.fit.vutbr.cz/~ihradis/CNN-Deblur/).<br>
@@ -7,12 +10,10 @@ Functions receive a PIL image as input, and return another as output.<br>
 Kernel sizes can either be specified as input, or randomized.<br>
 Finally, there's a RandomizedBlur function that applies a random type of blurring kernel with a random width/strength.
 
-pypi: [https://pypi.python.org/pypi?:action=display&name=pyblur&version=0.2.3](https://pypi.python.org/pypi?:action=display&name=pyblur&version=0.2.3)
-
 
 
 ##Installation
-From Pip: `pip install pyblur`<br>
+From Pip: `pip install pyblur3`<br>
 Or alternatively `git clone` this repo and run locally
 
 ##Usage
