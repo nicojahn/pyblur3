@@ -2,7 +2,7 @@
 import numpy as np
 from PIL import Image
 from scipy.signal import convolve2d
-from skimage.draw import circle
+from skimage.draw import disk as circle
 
 defocusKernelDims = [3,5,7,9]
 

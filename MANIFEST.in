@@ -1,2 +1,2 @@
 include README.md
-recursive-include pyblur *.pkl
+recursive-include pyblur3 *.pkl

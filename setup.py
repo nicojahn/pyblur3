@@ -25,5 +25,6 @@ setup(name='pyblur3',
       license='MIT',
       packages=find_packages(),
       include_package_data=True,
+      package_data={'': ['pyblur3/psf.pkl']},
       install_requires = ['numpy', 'pillow', 'scikit-image', 'scipy'],
       zip_safe = False)
